@@ -1,0 +1,84 @@
+body
+{
+    color: darkslategray;
+    background-color: aliceblue;
+    padding-block: 10px;
+}
+
+h1
+{
+color: #8B0000;
+font-family: "Ma Super Fonte", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+padding: 10px 10px 10px 10px;
+margin: 0;
+}
+
+h2
+{
+color: rgb(178,34,34);
+font-size: 25px;
+text-decoration: underline; 
+text-align: center;
+}
+
+mark
+{
+background-color: black;
+color: #8B0000;
+opacity: 0.2;
+font-size: 45px;
+text-decoration: underline black; 
+}
+
+markgy
+{
+color: greenyellow;
+}
+
+@font-face 
+{
+	font-family: "Ma Super Fonte";
+    src: url('nasalization-rg.ttf');
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+q
+{
+    border-width:1px;
+    border-style:dotted;
+    border-color:black;
+}
+
+p
+{
+    margin: 0,05;
+}
+
+ul
+{
+    margin: 0,05;
+}
+
+ul#menu li {
+    background-color: aliceblue;
+}
+
+ul#menu span {
+    display: block;
+    color:green;
+}
